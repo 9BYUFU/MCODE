@@ -13,7 +13,7 @@ body {
   /* ✅ correct layered background */
   background-image:
     linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
-    url("");  /* 👈 CHANGE PATH IF NEEDED */
+    url("dark-abstract-background.jpg");  /* 👈 CHANGE PATH IF NEEDED */
 
   background-size: cover;
   background-position: center;
