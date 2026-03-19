@@ -259,34 +259,4 @@ main {
   z-index: 0;
   pointer-events: none;
 }
-.logo-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 18px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-weight: bold;
-  font-size: 1.3rem;
-  color: white;
-
-  /* تأثير زجاجي */
-  background: linear-gradient(145deg, rgba(127,66,167,0.2), rgba(0,0,0,0.4));
-  backdrop-filter: blur(12px);
-
-  border: 1px solid rgba(127,66,167,0.4);
-
-  /* إضاءة */
-  box-shadow:
-    0 0 10px #7f42a7,
-    0 0 30px rgba(102,0,197,0.6),
-    inset 0 0 15px rgba(127,66,167,0.5);
-
-  transition: 0.4s;
-}
-
-.logo-icon:hover {
-  transform: scale(1.1) rotateY(180deg);
-}
